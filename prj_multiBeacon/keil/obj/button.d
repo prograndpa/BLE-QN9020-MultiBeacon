@@ -1,0 +1,15 @@
+.\obj\button.o: ..\..\src\qnevb\button.c
+.\obj\button.o: ..\..\src\driver\gpio.h
+.\obj\button.o: ..\src\driver_config.h
+.\obj\button.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\button.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\button.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\button.o: ..\..\src\cmsis\driver_QN9020.h
+.\obj\button.o: ..\..\src\cmsis\QN9020.h
+.\obj\button.o: ..\..\src\cmsis\core_cm0.h
+.\obj\button.o: ..\..\src\cmsis\core_cmInstr.h
+.\obj\button.o: ..\..\src\cmsis\core_cmFunc.h
+.\obj\button.o: ..\..\src\app\app_config.h
+.\obj\button.o: ..\src\usr_config.h
+.\obj\button.o: ..\..\src\fw\fw_func_addr.h
+.\obj\button.o: ..\..\src\qnevb\button.h

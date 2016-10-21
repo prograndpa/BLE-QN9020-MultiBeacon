@@ -1,0 +1,631 @@
+Dependencies for Project 'broadcaster', Target 'broadcaster': (DO NOT MODIFY !)
+F (..\..\src\startup\keil\startup.s)(0x57217659)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020--pd "__UVISION_VERSION SETA 520"-o .\obj\startup.o --depend .\obj\startup.d)
+F (..\..\src\main\app_main.c)(0x573A7933)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\app_main.o --omf_browse .\obj\app_main.crf --depend .\obj\app_main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\fw\ble.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (..\..\src\driver\intc.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\lib\lib.h)(0x573044C4)
+I (..\..\src\lib\qnrf.h)(0x5721765D)
+I (..\..\src\app\app_env.h)(0x57217662)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (..\..\src\fw\co_bt.h)(0x5721765E)
+I (..\..\src\fw\co_error.h)(0x5721765F)
+I (..\..\src\app\app_sys.h)(0x57217662)
+I (..\..\src\app\gap\app_gap.h)(0x57217662)
+I (..\..\src\fw\gap.h)(0x5721765E)
+I (..\..\src\fw\ke_task.h)(0x5721765F)
+I (..\..\src\fw\compiler.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (..\..\src\fw\ke_msg.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (..\..\src\fw\co_list.h)(0x5721765E)
+I (..\..\src\fw\gap_task.h)(0x5721765E)
+I (..\..\src\fw\llm_task.h)(0x5721765E)
+I (..\..\src\fw\llc_task.h)(0x5721765E)
+I (..\..\src\fw\smpc.h)(0x5721765E)
+I (..\..\src\fw\smpm_task.h)(0x5721765E)
+I (..\..\src\fw\gatt_task.h)(0x5721765F)
+I (..\..\src\fw\attm.h)(0x5721765E)
+I (..\..\src\fw\ke_timer.h)(0x5721765E)
+I (..\..\src\fw\attm_cfg.h)(0x5721765E)
+I (..\..\src\fw\gatt.h)(0x5721765E)
+I (..\..\src\fw\atts.h)(0x5721765F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\..\src\fw\atts_db.h)(0x5721765F)
+I (..\..\src\fw\attc_task.h)(0x5721765F)
+I (..\..\src\fw\co_utils.h)(0x5721765F)
+I (..\..\src\fw\gap_cfg.h)(0x5721765E)
+I (..\..\src\profiles\prf_utils.h)(0x5721765A)
+I (..\..\src\app\gap\app_gap_task.h)(0x57217662)
+I (..\..\src\app\smp\app_smp.h)(0x57217660)
+I (..\..\src\fw\smpc_task.h)(0x5721765E)
+I (..\..\src\app\smp\app_smp_task.h)(0x57217660)
+I (..\..\src\app\gatt\app_gatt.h)(0x57217661)
+I (..\..\src\app\gatt\app_gatt_task.h)(0x57217661)
+I (..\..\src\app\app_task.h)(0x580440F6)
+I (..\..\src\app\app_util.h)(0x57217662)
+I (..\..\src\app\app_printf.h)(0x57217661)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x56FE42E0)
+I (..\..\src\fw\nvds.h)(0x5721765F)
+I (..\src\usr_design.h)(0x58044598)
+I (..\..\src\driver\gpio.h)(0x5721765E)
+I (..\src\system.h)(0x57104ABF)
+I (..\..\src\driver\syscon.h)(0x5721765E)
+I (..\..\src\driver\uart.h)(0x5721765E)
+I (..\..\src\driver\sleep.h)(0x5721765E)
+I (..\..\src\driver\spi.h)(0x5721765E)
+I (..\..\src\qnevb\led.h)(0x5721765E)
+I (..\..\src\driver\rng.h)(0x5721765E)
+F (..\src\system.c)(0x57104ABF)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\system.o --omf_browse .\obj\system.crf --depend .\obj\system.d)
+I (..\src\system.h)(0x57104ABF)
+I (..\src\driver_config.h)(0x57104ABF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\driver\syscon.h)(0x5721765E)
+I (..\..\src\driver\uart.h)(0x5721765E)
+I (..\..\src\driver\sleep.h)(0x5721765E)
+I (..\..\src\driver\gpio.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\..\src\driver\spi.h)(0x5721765E)
+I (..\..\src\driver\timer.h)(0x5721765E)
+I (..\..\src\driver\pwm.h)(0x5721765E)
+I (..\..\src\driver\dma.h)(0x5721765E)
+I (..\..\src\driver\serialflash.h)(0x5721765E)
+I (..\..\src\driver\adc.h)(0x5721765E)
+I (..\..\src\driver\analog.h)(0x5721765E)
+I (..\..\src\qnevb\led.h)(0x5721765E)
+I (..\..\src\qnevb\button.h)(0x5721765E)
+I (..\..\src\lib\lib.h)(0x573044C4)
+I (..\..\src\lib\qnrf.h)(0x5721765D)
+I (..\..\src\app\app_env.h)(0x57217662)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (..\..\src\fw\co_bt.h)(0x5721765E)
+I (..\..\src\fw\co_error.h)(0x5721765F)
+I (..\..\src\app\app_sys.h)(0x57217662)
+I (..\..\src\app\gap\app_gap.h)(0x57217662)
+I (..\..\src\fw\gap.h)(0x5721765E)
+I (..\..\src\fw\ke_task.h)(0x5721765F)
+I (..\..\src\fw\compiler.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (..\..\src\driver\intc.h)(0x5721765E)
+I (..\..\src\fw\ke_msg.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (..\..\src\fw\co_list.h)(0x5721765E)
+I (..\..\src\fw\gap_task.h)(0x5721765E)
+I (..\..\src\fw\llm_task.h)(0x5721765E)
+I (..\..\src\fw\llc_task.h)(0x5721765E)
+I (..\..\src\fw\smpc.h)(0x5721765E)
+I (..\..\src\fw\smpm_task.h)(0x5721765E)
+I (..\..\src\fw\gatt_task.h)(0x5721765F)
+I (..\..\src\fw\attm.h)(0x5721765E)
+I (..\..\src\fw\ke_timer.h)(0x5721765E)
+I (..\..\src\fw\attm_cfg.h)(0x5721765E)
+I (..\..\src\fw\gatt.h)(0x5721765E)
+I (..\..\src\fw\atts.h)(0x5721765F)
+I (..\..\src\fw\atts_db.h)(0x5721765F)
+I (..\..\src\fw\attc_task.h)(0x5721765F)
+I (..\..\src\fw\co_utils.h)(0x5721765F)
+I (..\..\src\fw\gap_cfg.h)(0x5721765E)
+I (..\..\src\profiles\prf_utils.h)(0x5721765A)
+I (..\..\src\app\gap\app_gap_task.h)(0x57217662)
+I (..\..\src\app\smp\app_smp.h)(0x57217660)
+I (..\..\src\fw\smpc_task.h)(0x5721765E)
+I (..\..\src\app\smp\app_smp_task.h)(0x57217660)
+I (..\..\src\app\gatt\app_gatt.h)(0x57217661)
+I (..\..\src\app\gatt\app_gatt_task.h)(0x57217661)
+I (..\..\src\app\app_task.h)(0x580440F6)
+I (..\..\src\app\app_util.h)(0x57217662)
+I (..\..\src\app\app_printf.h)(0x57217661)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x56FE42E0)
+I (..\..\src\fw\nvds.h)(0x5721765F)
+I (..\src\usr_design.h)(0x58044598)
+F (..\src\usr_design.c)(0x580447FF)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\usr_design.o --omf_browse .\obj\usr_design.crf --depend .\obj\usr_design.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\..\src\app\app_env.h)(0x57217662)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (..\..\src\fw\co_bt.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (..\..\src\fw\co_error.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\app\app_sys.h)(0x57217662)
+I (..\..\src\app\gap\app_gap.h)(0x57217662)
+I (..\..\src\fw\gap.h)(0x5721765E)
+I (..\..\src\fw\ke_task.h)(0x5721765F)
+I (..\..\src\fw\compiler.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (..\..\src\driver\intc.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\fw\ke_msg.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (..\..\src\fw\co_list.h)(0x5721765E)
+I (..\..\src\fw\gap_task.h)(0x5721765E)
+I (..\..\src\fw\llm_task.h)(0x5721765E)
+I (..\..\src\fw\llc_task.h)(0x5721765E)
+I (..\..\src\fw\smpc.h)(0x5721765E)
+I (..\..\src\fw\smpm_task.h)(0x5721765E)
+I (..\..\src\fw\gatt_task.h)(0x5721765F)
+I (..\..\src\fw\attm.h)(0x5721765E)
+I (..\..\src\fw\ke_timer.h)(0x5721765E)
+I (..\..\src\fw\attm_cfg.h)(0x5721765E)
+I (..\..\src\fw\gatt.h)(0x5721765E)
+I (..\..\src\fw\atts.h)(0x5721765F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\..\src\fw\atts_db.h)(0x5721765F)
+I (..\..\src\fw\attc_task.h)(0x5721765F)
+I (..\..\src\fw\co_utils.h)(0x5721765F)
+I (..\..\src\fw\gap_cfg.h)(0x5721765E)
+I (..\..\src\profiles\prf_utils.h)(0x5721765A)
+I (..\..\src\app\gap\app_gap_task.h)(0x57217662)
+I (..\..\src\app\smp\app_smp.h)(0x57217660)
+I (..\..\src\fw\smpc_task.h)(0x5721765E)
+I (..\..\src\app\smp\app_smp_task.h)(0x57217660)
+I (..\..\src\app\gatt\app_gatt.h)(0x57217661)
+I (..\..\src\app\gatt\app_gatt_task.h)(0x57217661)
+I (..\..\src\app\app_task.h)(0x580440F6)
+I (..\..\src\app\app_util.h)(0x57217662)
+I (..\..\src\app\app_printf.h)(0x57217661)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x56FE42E0)
+I (..\..\src\fw\nvds.h)(0x5721765F)
+I (..\src\usr_design.h)(0x58044598)
+I (..\..\src\driver\gpio.h)(0x5721765E)
+I (..\..\src\qnevb\led.h)(0x5721765E)
+I (..\..\src\driver\uart.h)(0x5721765E)
+I (..\..\src\driver\syscon.h)(0x5721765E)
+I (..\..\src\driver\sleep.h)(0x5721765E)
+I (..\..\src\lib\lib.h)(0x573044C4)
+I (..\..\src\lib\qnrf.h)(0x5721765D)
+I (..\..\src\qnevb\button.h)(0x5721765E)
+F (..\..\src\app\app_task.c)(0x5804449E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\app_task.o --omf_browse .\obj\app_task.crf --depend .\obj\app_task.d)
+I (..\..\src\app\app_env.h)(0x57217662)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (..\..\src\fw\co_bt.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (..\..\src\fw\co_error.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\app\app_sys.h)(0x57217662)
+I (..\..\src\app\gap\app_gap.h)(0x57217662)
+I (..\..\src\fw\gap.h)(0x5721765E)
+I (..\..\src\fw\ke_task.h)(0x5721765F)
+I (..\..\src\fw\compiler.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (..\..\src\driver\intc.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\fw\ke_msg.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (..\..\src\fw\co_list.h)(0x5721765E)
+I (..\..\src\fw\gap_task.h)(0x5721765E)
+I (..\..\src\fw\llm_task.h)(0x5721765E)
+I (..\..\src\fw\llc_task.h)(0x5721765E)
+I (..\..\src\fw\smpc.h)(0x5721765E)
+I (..\..\src\fw\smpm_task.h)(0x5721765E)
+I (..\..\src\fw\gatt_task.h)(0x5721765F)
+I (..\..\src\fw\attm.h)(0x5721765E)
+I (..\..\src\fw\ke_timer.h)(0x5721765E)
+I (..\..\src\fw\attm_cfg.h)(0x5721765E)
+I (..\..\src\fw\gatt.h)(0x5721765E)
+I (..\..\src\fw\atts.h)(0x5721765F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\..\src\fw\atts_db.h)(0x5721765F)
+I (..\..\src\fw\attc_task.h)(0x5721765F)
+I (..\..\src\fw\co_utils.h)(0x5721765F)
+I (..\..\src\fw\gap_cfg.h)(0x5721765E)
+I (..\..\src\profiles\prf_utils.h)(0x5721765A)
+I (..\..\src\app\gap\app_gap_task.h)(0x57217662)
+I (..\..\src\app\smp\app_smp.h)(0x57217660)
+I (..\..\src\fw\smpc_task.h)(0x5721765E)
+I (..\..\src\app\smp\app_smp_task.h)(0x57217660)
+I (..\..\src\app\gatt\app_gatt.h)(0x57217661)
+I (..\..\src\app\gatt\app_gatt_task.h)(0x57217661)
+I (..\..\src\app\app_task.h)(0x580440F6)
+I (..\..\src\app\app_util.h)(0x57217662)
+I (..\..\src\app\app_printf.h)(0x57217661)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x56FE42E0)
+I (..\..\src\fw\nvds.h)(0x5721765F)
+I (..\src\usr_design.h)(0x58044598)
+I (..\..\src\driver\gpio.h)(0x5721765E)
+I (..\..\src\lib\lib.h)(0x573044C4)
+I (..\..\src\lib\qnrf.h)(0x5721765D)
+I (..\..\src\driver\sleep.h)(0x5721765E)
+I (..\..\src\driver\syscon.h)(0x5721765E)
+F (..\..\src\app\gap\app_gap.c)(0x57217662)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\app_gap.o --omf_browse .\obj\app_gap.crf --depend .\obj\app_gap.d)
+I (..\..\src\app\app_env.h)(0x57217662)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (..\..\src\fw\co_bt.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (..\..\src\fw\co_error.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\app\app_sys.h)(0x57217662)
+I (..\..\src\app\gap\app_gap.h)(0x57217662)
+I (..\..\src\fw\gap.h)(0x5721765E)
+I (..\..\src\fw\ke_task.h)(0x5721765F)
+I (..\..\src\fw\compiler.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (..\..\src\driver\intc.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\fw\ke_msg.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (..\..\src\fw\co_list.h)(0x5721765E)
+I (..\..\src\fw\gap_task.h)(0x5721765E)
+I (..\..\src\fw\llm_task.h)(0x5721765E)
+I (..\..\src\fw\llc_task.h)(0x5721765E)
+I (..\..\src\fw\smpc.h)(0x5721765E)
+I (..\..\src\fw\smpm_task.h)(0x5721765E)
+I (..\..\src\fw\gatt_task.h)(0x5721765F)
+I (..\..\src\fw\attm.h)(0x5721765E)
+I (..\..\src\fw\ke_timer.h)(0x5721765E)
+I (..\..\src\fw\attm_cfg.h)(0x5721765E)
+I (..\..\src\fw\gatt.h)(0x5721765E)
+I (..\..\src\fw\atts.h)(0x5721765F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\..\src\fw\atts_db.h)(0x5721765F)
+I (..\..\src\fw\attc_task.h)(0x5721765F)
+I (..\..\src\fw\co_utils.h)(0x5721765F)
+I (..\..\src\fw\gap_cfg.h)(0x5721765E)
+I (..\..\src\profiles\prf_utils.h)(0x5721765A)
+I (..\..\src\app\gap\app_gap_task.h)(0x57217662)
+I (..\..\src\app\smp\app_smp.h)(0x57217660)
+I (..\..\src\fw\smpc_task.h)(0x5721765E)
+I (..\..\src\app\smp\app_smp_task.h)(0x57217660)
+I (..\..\src\app\gatt\app_gatt.h)(0x57217661)
+I (..\..\src\app\gatt\app_gatt_task.h)(0x57217661)
+I (..\..\src\app\app_task.h)(0x580440F6)
+I (..\..\src\app\app_util.h)(0x57217662)
+I (..\..\src\app\app_printf.h)(0x57217661)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x56FE42E0)
+I (..\..\src\fw\nvds.h)(0x5721765F)
+I (..\src\usr_design.h)(0x58044598)
+I (..\..\src\driver\gpio.h)(0x5721765E)
+I (..\..\src\lib\lib.h)(0x573044C4)
+I (..\..\src\lib\qnrf.h)(0x5721765D)
+F (..\..\src\app\gap\app_gap_task.c)(0x573A7933)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\app_gap_task.o --omf_browse .\obj\app_gap_task.crf --depend .\obj\app_gap_task.d)
+I (..\..\src\app\app_env.h)(0x57217662)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (..\..\src\fw\co_bt.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (..\..\src\fw\co_error.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\app\app_sys.h)(0x57217662)
+I (..\..\src\app\gap\app_gap.h)(0x57217662)
+I (..\..\src\fw\gap.h)(0x5721765E)
+I (..\..\src\fw\ke_task.h)(0x5721765F)
+I (..\..\src\fw\compiler.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (..\..\src\driver\intc.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\fw\ke_msg.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (..\..\src\fw\co_list.h)(0x5721765E)
+I (..\..\src\fw\gap_task.h)(0x5721765E)
+I (..\..\src\fw\llm_task.h)(0x5721765E)
+I (..\..\src\fw\llc_task.h)(0x5721765E)
+I (..\..\src\fw\smpc.h)(0x5721765E)
+I (..\..\src\fw\smpm_task.h)(0x5721765E)
+I (..\..\src\fw\gatt_task.h)(0x5721765F)
+I (..\..\src\fw\attm.h)(0x5721765E)
+I (..\..\src\fw\ke_timer.h)(0x5721765E)
+I (..\..\src\fw\attm_cfg.h)(0x5721765E)
+I (..\..\src\fw\gatt.h)(0x5721765E)
+I (..\..\src\fw\atts.h)(0x5721765F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\..\src\fw\atts_db.h)(0x5721765F)
+I (..\..\src\fw\attc_task.h)(0x5721765F)
+I (..\..\src\fw\co_utils.h)(0x5721765F)
+I (..\..\src\fw\gap_cfg.h)(0x5721765E)
+I (..\..\src\profiles\prf_utils.h)(0x5721765A)
+I (..\..\src\app\gap\app_gap_task.h)(0x57217662)
+I (..\..\src\app\smp\app_smp.h)(0x57217660)
+I (..\..\src\fw\smpc_task.h)(0x5721765E)
+I (..\..\src\app\smp\app_smp_task.h)(0x57217660)
+I (..\..\src\app\gatt\app_gatt.h)(0x57217661)
+I (..\..\src\app\gatt\app_gatt_task.h)(0x57217661)
+I (..\..\src\app\app_task.h)(0x580440F6)
+I (..\..\src\app\app_util.h)(0x57217662)
+I (..\..\src\app\app_printf.h)(0x57217661)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x56FE42E0)
+I (..\..\src\fw\nvds.h)(0x5721765F)
+I (..\src\usr_design.h)(0x58044598)
+I (..\..\src\driver\gpio.h)(0x5721765E)
+I (..\..\src\lib\lib.h)(0x573044C4)
+I (..\..\src\lib\qnrf.h)(0x5721765D)
+F (..\..\src\driver\uart.c)(0x5721765E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (..\..\src\driver\uart.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\driver\syscon.h)(0x5721765E)
+I (..\..\src\driver\sleep.h)(0x5721765E)
+I (..\..\src\driver\gpio.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+F (..\..\src\driver\gpio.c)(0x5721765E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (..\..\src\driver\gpio.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\driver\sleep.h)(0x5721765E)
+I (..\..\src\driver\syscon.h)(0x5721765E)
+F (..\..\src\driver\sleep.c)(0x5721765E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\sleep.o --omf_browse .\obj\sleep.crf --depend .\obj\sleep.d)
+I (..\..\src\driver\sleep.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\driver\syscon.h)(0x5721765E)
+I (..\..\src\driver\gpio.h)(0x5721765E)
+I (..\..\src\driver\intc.h)(0x5721765E)
+I (..\..\src\lib\lib.h)(0x573044C4)
+I (..\..\src\lib\qnrf.h)(0x5721765D)
+I (..\..\src\app\app_env.h)(0x57217662)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (..\..\src\fw\co_bt.h)(0x5721765E)
+I (..\..\src\fw\co_error.h)(0x5721765F)
+I (..\..\src\app\app_sys.h)(0x57217662)
+I (..\..\src\app\gap\app_gap.h)(0x57217662)
+I (..\..\src\fw\gap.h)(0x5721765E)
+I (..\..\src\fw\ke_task.h)(0x5721765F)
+I (..\..\src\fw\compiler.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (..\..\src\fw\ke_msg.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (..\..\src\fw\co_list.h)(0x5721765E)
+I (..\..\src\fw\gap_task.h)(0x5721765E)
+I (..\..\src\fw\llm_task.h)(0x5721765E)
+I (..\..\src\fw\llc_task.h)(0x5721765E)
+I (..\..\src\fw\smpc.h)(0x5721765E)
+I (..\..\src\fw\smpm_task.h)(0x5721765E)
+I (..\..\src\fw\gatt_task.h)(0x5721765F)
+I (..\..\src\fw\attm.h)(0x5721765E)
+I (..\..\src\fw\ke_timer.h)(0x5721765E)
+I (..\..\src\fw\attm_cfg.h)(0x5721765E)
+I (..\..\src\fw\gatt.h)(0x5721765E)
+I (..\..\src\fw\atts.h)(0x5721765F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\..\src\fw\atts_db.h)(0x5721765F)
+I (..\..\src\fw\attc_task.h)(0x5721765F)
+I (..\..\src\fw\co_utils.h)(0x5721765F)
+I (..\..\src\fw\gap_cfg.h)(0x5721765E)
+I (..\..\src\profiles\prf_utils.h)(0x5721765A)
+I (..\..\src\app\gap\app_gap_task.h)(0x57217662)
+I (..\..\src\app\smp\app_smp.h)(0x57217660)
+I (..\..\src\fw\smpc_task.h)(0x5721765E)
+I (..\..\src\app\smp\app_smp_task.h)(0x57217660)
+I (..\..\src\app\gatt\app_gatt.h)(0x57217661)
+I (..\..\src\app\gatt\app_gatt_task.h)(0x57217661)
+I (..\..\src\app\app_task.h)(0x580440F6)
+I (..\..\src\app\app_util.h)(0x57217662)
+I (..\..\src\app\app_printf.h)(0x57217661)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x56FE42E0)
+I (..\..\src\fw\nvds.h)(0x5721765F)
+I (..\src\usr_design.h)(0x58044598)
+I (..\..\src\driver\uart.h)(0x5721765E)
+I (..\..\src\driver\spi.h)(0x5721765E)
+I (..\..\src\qnevb\button.h)(0x5721765E)
+F (..\..\src\driver\syscon.c)(0x5721765E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\syscon.o --omf_browse .\obj\syscon.crf --depend .\obj\syscon.d)
+I (..\..\src\driver\syscon.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\lib\lib.h)(0x573044C4)
+I (..\..\src\lib\qnrf.h)(0x5721765D)
+I (..\..\src\app\app_env.h)(0x57217662)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (..\..\src\fw\co_bt.h)(0x5721765E)
+I (..\..\src\fw\co_error.h)(0x5721765F)
+I (..\..\src\app\app_sys.h)(0x57217662)
+I (..\..\src\app\gap\app_gap.h)(0x57217662)
+I (..\..\src\fw\gap.h)(0x5721765E)
+I (..\..\src\fw\ke_task.h)(0x5721765F)
+I (..\..\src\fw\compiler.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x56FE42D6)
+I (..\..\src\driver\intc.h)(0x5721765E)
+I (..\..\src\fw\ke_msg.h)(0x5721765E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (..\..\src\fw\co_list.h)(0x5721765E)
+I (..\..\src\fw\gap_task.h)(0x5721765E)
+I (..\..\src\fw\llm_task.h)(0x5721765E)
+I (..\..\src\fw\llc_task.h)(0x5721765E)
+I (..\..\src\fw\smpc.h)(0x5721765E)
+I (..\..\src\fw\smpm_task.h)(0x5721765E)
+I (..\..\src\fw\gatt_task.h)(0x5721765F)
+I (..\..\src\fw\attm.h)(0x5721765E)
+I (..\..\src\fw\ke_timer.h)(0x5721765E)
+I (..\..\src\fw\attm_cfg.h)(0x5721765E)
+I (..\..\src\fw\gatt.h)(0x5721765E)
+I (..\..\src\fw\atts.h)(0x5721765F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\..\src\fw\atts_db.h)(0x5721765F)
+I (..\..\src\fw\attc_task.h)(0x5721765F)
+I (..\..\src\fw\co_utils.h)(0x5721765F)
+I (..\..\src\fw\gap_cfg.h)(0x5721765E)
+I (..\..\src\profiles\prf_utils.h)(0x5721765A)
+I (..\..\src\app\gap\app_gap_task.h)(0x57217662)
+I (..\..\src\app\smp\app_smp.h)(0x57217660)
+I (..\..\src\fw\smpc_task.h)(0x5721765E)
+I (..\..\src\app\smp\app_smp_task.h)(0x57217660)
+I (..\..\src\app\gatt\app_gatt.h)(0x57217661)
+I (..\..\src\app\gatt\app_gatt_task.h)(0x57217661)
+I (..\..\src\app\app_task.h)(0x580440F6)
+I (..\..\src\app\app_util.h)(0x57217662)
+I (..\..\src\app\app_printf.h)(0x57217661)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x56FE42E0)
+I (..\..\src\fw\nvds.h)(0x5721765F)
+I (..\src\usr_design.h)(0x58044598)
+I (..\..\src\driver\gpio.h)(0x5721765E)
+I (..\..\src\driver\timer.h)(0x5721765E)
+I (..\..\src\driver\sleep.h)(0x5721765E)
+I (..\..\src\driver\rtc.h)(0x5721765E)
+F (..\..\src\driver\timer.c)(0x5721765E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\timer.o --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
+I (..\..\src\driver\timer.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\driver\sleep.h)(0x5721765E)
+I (..\..\src\driver\syscon.h)(0x5721765E)
+I (..\..\src\driver\gpio.h)(0x5721765E)
+F (..\..\src\driver\rtc.c)(0x5721765E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\rtc.o --omf_browse .\obj\rtc.crf --depend .\obj\rtc.d)
+I (..\..\src\driver\rtc.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+F (..\..\src\driver\serialflash.c)(0x5721765E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\serialflash.o --omf_browse .\obj\serialflash.crf --depend .\obj\serialflash.d)
+I (..\..\src\driver\serialflash.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\driver\syscon.h)(0x5721765E)
+F (..\..\src\lib\keil\qn9020b2_lib_peripheral.lib)(0x57304927)()
+F (..\..\src\lib\keil\qn9020b4_lib_peripheral.lib)(0x57304938)()
+F (..\..\src\qnevb\led.c)(0x5721765E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\led.o --omf_browse .\obj\led.crf --depend .\obj\led.d)
+I (..\..\src\driver\gpio.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\qnevb\led.h)(0x5721765E)
+F (..\..\src\qnevb\button.c)(0x5721765E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\button.o --omf_browse .\obj\button.crf --depend .\obj\button.d)
+I (..\..\src\driver\gpio.h)(0x5721765E)
+I (..\src\driver_config.h)(0x57104ABF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE42DC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (..\..\src\cmsis\driver_QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\QN9020.h)(0x5721765F)
+I (..\..\src\cmsis\core_cm0.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmInstr.h)(0x5721765F)
+I (..\..\src\cmsis\core_cmFunc.h)(0x5721765F)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (..\..\src\fw\fw_func_addr.h)(0x573044C4)
+I (..\..\src\qnevb\button.h)(0x5721765E)
+F (..\..\src\retarget\retarget.c)(0x5721765F)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\src\fw -I ..\..\src\profiles -I ..\..\src\app -I ..\..\src\app\gatt -I ..\..\src\app\smp -I ..\..\src\cmsis -I ..\..\src\driver -I ..\..\src\lib -I ..\..\src\qnevb -I ..\src -I ..\..\src\app\gap --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="520"-o .\obj\retarget.o --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+I (..\..\src\app\app_config.h)(0x573A7933)
+I (..\src\usr_config.h)(0x57104ABF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x56FE42D6)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x56FE42D4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE42DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)

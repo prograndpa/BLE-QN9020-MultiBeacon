@@ -1,0 +1,15 @@
+.\obj\led.o: ..\..\src\qnevb\led.c
+.\obj\led.o: ..\..\src\driver\gpio.h
+.\obj\led.o: ..\src\driver_config.h
+.\obj\led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\led.o: ..\..\src\cmsis\driver_QN9020.h
+.\obj\led.o: ..\..\src\cmsis\QN9020.h
+.\obj\led.o: ..\..\src\cmsis\core_cm0.h
+.\obj\led.o: ..\..\src\cmsis\core_cmInstr.h
+.\obj\led.o: ..\..\src\cmsis\core_cmFunc.h
+.\obj\led.o: ..\..\src\app\app_config.h
+.\obj\led.o: ..\src\usr_config.h
+.\obj\led.o: ..\..\src\fw\fw_func_addr.h
+.\obj\led.o: ..\..\src\qnevb\led.h

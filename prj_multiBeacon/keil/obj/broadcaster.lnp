@@ -1,0 +1,23 @@
+--cpu Cortex-M0
+".\obj\startup.o"
+".\obj\app_main.o"
+".\obj\system.o"
+".\obj\usr_design.o"
+".\obj\app_task.o"
+".\obj\app_gap.o"
+".\obj\app_gap_task.o"
+".\obj\uart.o"
+".\obj\gpio.o"
+".\obj\sleep.o"
+".\obj\syscon.o"
+".\obj\timer.o"
+".\obj\rtc.o"
+".\obj\serialflash.o"
+"..\..\src\lib\keil\qn9020b2_lib_peripheral.lib"
+".\obj\led.o"
+".\obj\button.o"
+".\obj\retarget.o"
+--library_type=microlib --strict --scatter "..\..\src\link\keil\qn9020_link.sct"
+--no_autoat --remove --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\listings\broadcaster.map" -o .\obj\broadcaster.axf
